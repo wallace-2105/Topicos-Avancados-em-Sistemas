@@ -1,43 +1,51 @@
 # Tópicos Avançados em Sistemas de Informação II
 
-Simulado de Estudos Interativo e Guia Teórico Profundo focado em:
-1. **Cultura, Práticas e Ferramentas DevOps** (CI/CD, IaC com Terraform/Ansible, Kubernetes/Docker, Pipelines, Observabilidade).
-2. **Design Thinking na Prática** (Tripé, Pilares, Etapas do Duplo Diamante, Matriz CSD, Prototipação).
+Plano de Ensino Universitário e Simulado de Avaliação Interativo focado em:
+1. **Cultura, Práticas e Ferramentas DevOps** (CI/CD, IaC com Terraform/Ansible, Orquestração Kubernetes/Docker, Pipelines, Observabilidade).
+2. **Design Thinking na Prática** (Tripé da Inovação, Pilares, Duplo Diamante: Imersão vs Síntese, Matriz CSD, Prototipação).
 3. **Qualidade de Software, ITIL e Métodos Ágeis (Scrum)**.
 
 ---
 
-## 📁 Estrutura do Projeto
+## 🎯 Novo Fluxo Pedagógico de Aprendizagem
 
-O código foi modularizado em pastas internas dedicadas para máxima organização e manutenibilidade:
+O sistema foi estruturado para potencializar a retenção e o diagnóstico de lacunas antes da prova oficial:
+
+1. **Etapa 1 - Estudo Teórico Inicial ("Desmistificando os Desafios")**:
+   - Vem **primeiro** na página, permitindo revisar os tópicos que mais derrubam estudantes:
+     - CI vs CD (Continuous Delivery vs Continuous Deployment).
+     - IaC: Terraform vs Ansible na prática.
+     - Imersão vs Síntese no Duplo Diamante.
+     - Aplicação prática da Matriz CSD.
+     - Protótipos de Baixa vs Alta Fidelidade.
+2. **Etapa 2 - Simulado Realista (30 Questões)**:
+   - Dividido em 10 Fáceis, 10 Médias e 10 Difíceis.
+   - As respostas são marcadas sem revelar o gabarito de imediato, simulando o ambiente real de avaliação.
+3. **Etapa 3 - Diagnóstico Pedagógico Automático**:
+   - Ao clicar em **"Finalizar e Enviar Simulado"**, o sistema avalia as 30 questões e gera:
+     - **Nota e Percentual de Aproveitamento**.
+     - **Desempenho por Dificuldade** (Fácil, Médio, Difícil).
+     - **Desempenho por Eixo Temático** (DevOps, Design Thinking, Ágil/Qualidade).
+     - 🌟 **Pontos Fortes**: Áreas com maior taxa de acerto.
+     - ⚠️ **Pontos a Reforçar**: Lista detalhada dos tópicos e questões com erro para revisão prioritária.
+     - **Gabarito Comentado Completo**: Todas as 30 questões são abertas com a justificativa técnica detalhada do professor.
+
+---
+
+## 📁 Estrutura de Arquivos
 
 ```text
 Topicos-Avancados-em-Sistemas/
-├── index.html          # Estrutura semântica completa (30 questões e 5 guias teóricos)
+├── index.html          # Guia teórico primeiro, seguido pelo simulado e painel de diagnóstico
 ├── css/
-│   └── style.css       # Estilização moderna, responsiva, tema escuro e regras para impressão
+│   └── style.css       # Estilização completa, modo escuro de alto contraste e regras de impressão
 ├── js/
-│   └── script.js       # Lógica interativa (seleção, gabarito, dashboard de pontuação, filtros e reset)
-└── README.md           # Documentação do projeto
+│   └── script.js       # Banco de dados das 30 questões, cálculo de métricas e relatório pedagógico
+└── README.md           # Documentação completa do projeto
 ```
 
 ---
 
 ## 🚀 Como Executar
 
-Não é necessário instalar nenhum servidor ou dependência externa:
-1. Basta dar um duplo clique no arquivo [`index.html`](index.html) para abri-lo diretamente em qualquer navegador moderno (Chrome, Edge, Firefox, Brave).
-2. Ou clique com o botão direito no arquivo `index.html` e selecione **"Abrir com o Navegador"** / **"Open with Live Server"**.
-
----
-
-## 🎯 Funcionalidades Interativas
-
-- **30 Questões de Múltipla Escolha**:
-  - 10 Nível Fácil (Conceitos básicos e definições).
-  - 10 Nível Médio (Aplicações práticas e ferramentas).
-  - 10 Nível Difícil (Cenários complexos integrando DevOps e Design Thinking).
-- **Gabarito Comentado Imediato**: Cada questão possui botão com justificativa detalhada do professor.
-- **Painel Fixo de Desempenho**: Contador em tempo real de respondidas, acertos, erros e percentual de aproveitamento com opção de **Reiniciar**.
-- **Filtros por Dificuldade**: Alterne entre Todas, Fácil, Médio e Difícil com um clique.
-- **Seção "Desmistificando os Desafios"**: Guia de aprofundamento com tabelas comparativas e analogias para gabaritar a prova.
+Basta abrir o arquivo [`index.html`](index.html) diretamente com dois cliques no navegador ou utilizando o Live Server.
