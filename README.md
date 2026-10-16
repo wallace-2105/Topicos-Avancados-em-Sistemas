@@ -1,12 +1,19 @@
 # 🎓 Tópicos Avançados em Sistemas de Informação II
 ### Plataforma de Aprendizagem Ativa, Guia Teórico & Simulado Avaliativo
 
+[![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-success?style=for-the-badge&logo=github)](https://wallace-2105.github.io/Topicos-Avancados-em-Sistemas/)
 ![Status](https://img.shields.io/badge/Status-Ativo%20%26%20Atualizado-success?style=for-the-badge)
 ![Nível](https://img.shields.io/badge/Nível-Ensino%20Superior-blue?style=for-the-badge)
 ![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20CSS3%20%7C%20Vanilla%20JS-orange?style=for-the-badge)
 ![DevOps](https://img.shields.io/badge/Área-DevOps%20%26%20Design%20Thinking-purple?style=for-the-badge)
 ![Dependências](https://img.shields.io/badge/Dependências-Zero%20(Offline%20First)-brightgreen?style=for-the-badge)
 ![Licença](https://img.shields.io/badge/Licença-MIT-informational?style=for-the-badge)
+
+---
+
+> 🌐 **Acesse a aplicação online:** [https://wallace-2105.github.io/Topicos-Avancados-em-Sistemas/](https://wallace-2105.github.io/Topicos-Avancados-em-Sistemas/)
+> 
+> *Pronto para uso imediato no navegador, sem necessidade de download ou configuração.*
 
 ---
 
@@ -125,6 +132,14 @@ Topicos-Avancados-em-Sistemas/
 * **Zero Dependências Externas (Self-Contained):** Não depende de bibliotecas externas, NPM, CDNs ou frameworks complexos. Funciona offline em qualquer máquina.
 * **Compatibilidade Universal:** Roda com perfeição em qualquer navegador via protocolo local (`file:///`) ou servidores web HTTP padrão.
 * **Estilos de Impressão (`@media print`):** Permite ao aluno utilizar a função nativa de impressão do navegador (Ctrl + P) para gerar um **PDF formatado do simulado com gabarito**.
+
+---
+
+## 🌐 Acesso Online (Deploy em Produção)
+
+A forma mais rápida de utilizar a plataforma é acessando diretamente a versão publicada no **GitHub Pages**, sem precisar clonar ou instalar nada:
+
+👉 **[Acessar Plataforma Online](https://wallace-2105.github.io/Topicos-Avancados-em-Sistemas/)**
 
 ---
 
