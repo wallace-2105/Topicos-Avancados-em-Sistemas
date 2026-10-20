@@ -804,12 +804,88 @@ footer {
    ========================================= */
 @media (max-width: 768px) {
     h1 { font-size: 1.85rem; }
-    .stats-dashboard { flex-direction: column; align-items: stretch; gap: 0.85rem; }
-    .dashboard-progress { justify-content: space-between; }
-    .progress-bar-container { width: 140px; }
-    .question-statement { font-size: 1rem; }
+    
+    /* Painel fixo compacto para não obstruir leitura no celular */
+    .stats-dashboard { 
+        padding: 0.75rem 1rem;
+        top: 8px;
+        gap: 0.65rem;
+    }
+    .dashboard-progress { 
+        justify-content: space-between; 
+        width: 100%;
+    }
+    .stat-value { font-size: 1.25rem; }
+    .progress-bar-container { width: 130px; }
+    .dashboard-actions {
+        width: 100%;
+        display: flex;
+        gap: 0.5rem;
+    }
+    .btn-submit-exam {
+        flex: 1;
+        justify-content: center;
+        padding: 0.6rem 0.85rem;
+        font-size: 0.88rem;
+    }
+    .btn-reset {
+        padding: 0.6rem 0.85rem;
+        font-size: 0.88rem;
+    }
+
+    /* Ajuste de texto em telas menores (evita 'rios de espaço' do text-align justify) */
+    .deep-dive-card p { text-align: left; }
     .deep-dive-card { padding: 1.5rem; }
+    
+    /* Quebra de tags e badges nas questões */
+    .question-top { flex-wrap: wrap; gap: 0.5rem; }
+    .question-meta { flex-wrap: wrap; gap: 0.4rem; }
+    .question-statement { font-size: 1rem; }
+    
+    /* Card de resultados e métricas */
     .result-score-badge { font-size: 2rem; }
+    .result-metrics-grid, .diagnostic-columns {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    /* Botão final de submissão fluido */
+    .btn-submit-large {
+        width: 100%;
+        max-width: 100%;
+        padding: 0.9rem 1.2rem;
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header { padding: 2.2rem 1rem 1.6rem; }
+    h1 { font-size: 1.5rem; }
+    .header-subtitle { font-size: 0.98rem; margin-bottom: 1.3rem; }
+    .instructions-card { padding: 1rem 1.15rem; font-size: 0.88rem; }
+    
+    .nav-anchor-bar {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.6rem;
+    }
+    .nav-btn {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container { padding: 1.25rem 0.85rem; }
+    .deep-dive-card { padding: 1.25rem 1rem; margin-bottom: 1.8rem; }
+    .question-card { padding: 1.25rem 1rem; margin-bottom: 1.35rem; }
+    .option-item { padding: 0.75rem 0.85rem; }
+    .option-label { font-size: 0.92rem; }
+    
+    .result-card-container { padding: 1.35rem 1rem; }
+    .result-card-header h2 { font-size: 1.5rem; }
+    .result-metrics-grid, .diagnostic-columns {
+        grid-template-columns: 1fr;
+    }
+    .exam-bottom-action { padding: 1.5rem 1rem; }
 }
 
 @media print {
