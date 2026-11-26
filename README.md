@@ -191,7 +191,7 @@ Este é um projeto acadêmico de código aberto voltado à comunidade estudantil
 Este projeto está licenciado sob a **Licença MIT** — sinta-se livre para utilizar, modificar e compartilhar para fins de estudo individual ou em grupos acadêmicos.
 
 ---
-
+MAIS EM BREVE
 <div align="center">
   <sub>Desenvolvido com foco na excelência acadêmica e na democratização do ensino de Engenharia de Software e DevOps.</sub>
 </div>
